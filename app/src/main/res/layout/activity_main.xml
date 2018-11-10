@@ -4,25 +4,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".ui.main.MainActivity">
 
     <LinearLayout xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        tools:context=".MainActivity">
+        tools:context=".ui.main.MainActivity">
 
         <TextView
+            style="@style/label_titulo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/dados_do_cliente" />
 
-        <EditText
+        <TextView
+            android:id="@+id/tvNome"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/hint_nome_cliente" />
+            tools:text="Fulano"/>
 
         <TextView
+            style="@style/label_titulo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/label_escolha_pizzas" />

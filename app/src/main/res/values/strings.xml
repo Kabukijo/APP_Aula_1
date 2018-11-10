@@ -19,4 +19,6 @@
     <string name="cupom">Cupom</string>
     <string name="label_forma_de_pagamento">Forma de pagamento</string>
     <string name="label_calcular">Calcular</string>
+
+    <string name="saudacao">Olá %1$s vamos ligar para o numero %2$s</string>
 </resources>
