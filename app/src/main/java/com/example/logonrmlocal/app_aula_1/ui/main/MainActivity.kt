@@ -48,7 +48,6 @@ class MainActivity : AppCompatActivity() {
         cbBacon.isChecked = mainViewModel.baconSelecionado
         cbCalabresa.isChecked = mainViewModel.calabresaSelecionada
         cbMussarela.isChecked = mainViewModel.mussarelaSelecionada
-        
 
         btCalcular.setOnClickListener{
             val intent = Intent(this, CheckoutActivity::class.java)
