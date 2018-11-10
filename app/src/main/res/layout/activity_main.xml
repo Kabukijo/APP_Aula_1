@@ -35,10 +35,12 @@
         <LinearLayout style="@style/container_linha">
 
             <CheckBox
+                android:id="@+id/cbAtum"
                 style="@style/checkbox_pizza"
                 android:text="@string/label_atum"></CheckBox>
 
             <CheckBox
+                android:id="@+id/cbBacon"
                 style="@style/checkbox_pizza"
                 android:text="@string/label_bacon"></CheckBox>
         </LinearLayout>
@@ -46,10 +48,12 @@
         <LinearLayout style="@style/container_linha">
 
             <CheckBox
+                android:id="@+id/cbCalabresa"
                 style="@style/checkbox_pizza"
                 android:text="@string/label_calabresa"></CheckBox>
 
             <CheckBox
+                android:id="@+id/cbMussarela"
                 style="@style/checkbox_pizza"
                 android:text="@string/label_muzzarela"></CheckBox>
         </LinearLayout>
@@ -88,6 +92,7 @@
             android:entries="@array/formas_pagamento" />
 
         <Button
+            android:id="@+id/btCalcular"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/botao_personalizado"
